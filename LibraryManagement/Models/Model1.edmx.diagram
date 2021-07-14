@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="60c95aa359894e27aac93e6c886296c5" Name="Diagram1">
+        <EntityTypeShape EntityType="kctlibraryModel.author" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kctlibraryModel.category" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kctlibraryModel.publisher" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="kctlibraryModel.member" Width="1.5" PointX="2.875" PointY="3" />
+        <EntityTypeShape EntityType="kctlibraryModel.book" Width="1.5" PointX="6" PointY="1.25" />
+        <AssociationConnector Association="kctlibraryModel.FK_book_author" />
+        <AssociationConnector Association="kctlibraryModel.FK_book_category" />
+        <AssociationConnector Association="kctlibraryModel.FK_book_publisher" />
+        <EntityTypeShape EntityType="kctlibraryModel.issuebook" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="kctlibraryModel.returnbook" Width="1.5" PointX="3.375" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
